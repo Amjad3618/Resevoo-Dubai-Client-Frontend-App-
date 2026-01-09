@@ -380,7 +380,7 @@ class _SocialViewState extends State<SocialView> {
       // Floating Action Button
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Colors.purple,
+        backgroundColor: const Color.fromARGB(255, 31, 3, 189),
         child: const Icon(Icons.add, color: Colors.white),
       ),
     );
